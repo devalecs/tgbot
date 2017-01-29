@@ -1,4 +1,4 @@
-package hugo
+package tgbot
 
 import "gopkg.in/devalecs/tgo.v1"
 
