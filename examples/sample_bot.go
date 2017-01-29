@@ -3,11 +3,11 @@ package main
 import (
 	"log"
 
-	"gopkg.in/devalecs/hugo.v1"
+	"gopkg.in/devalecs/tgbot.v1"
 )
 
 func main() {
-	b := hugo.NewBot(hugo.Config{
+	b := tgbot.NewBot(tgbot.Config{
 		Token: "yourBotAPIToken",
 	})
 
