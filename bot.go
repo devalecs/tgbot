@@ -69,7 +69,6 @@ func (b *Bot) runPlugins(update *tgo.Update) {
 	for _, p := range b.plugins {
 		if p.Match(b, update) {
 			p.Reply(b, update)
-			break
 		}
 	}
 }
